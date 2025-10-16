@@ -25,3 +25,38 @@ header {
 #resultsContainer {
     padding: 1rem;
 }
+
+/* Styling for the results cards */
+.device-card {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.device-card h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.device-card .category {
+    font-style: italic;
+    color: #666;
+    margin-top: -10px;
+}
+
+.device-card ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.device-card li {
+    padding: 0.5rem;
+    border-top: 1px solid #eee;
+}
+
+.device-card li:first-child {
+    border-top: none;
+}
